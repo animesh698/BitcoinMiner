@@ -8,8 +8,8 @@ Here, we are required to use SHA-26 to find hashes for an input string
 Steps to run:</br>
 Requirements: .NET SDK, Ionide, Visual Studio</br>
 
-On Local Machine:
-(Tested on Windows and Mac OS)
+On Local Machine: </br>
+(Tested on Windows and Mac OS) </br>
 Go to the project directory and and then into the Local subdirectory</br>
 Type in the visual studio terminal (or Command Prompt): dotnet fsi bitcoinminer.fsx 4</br>
 The argument is the value of 'k'- which is the number of leading 0’s in the hashed output</br>
@@ -24,4 +24,5 @@ Run server.fsx first and wait until the server is listening for requests</br>
 Run client.fsx next with 2 arguments:</br>
  - Ip address of the machine (as mentioned in server.fsx configuration)
  - Port No (as mentioned in server.fsx configuration)</br>
+
 Both client and server will terminate when all bitcoins with k leading 0’s are mined
