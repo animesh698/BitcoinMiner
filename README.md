@@ -9,10 +9,10 @@ Steps to run:
 - Requirements: .NET SDK, Ionide, Visual Studio
 On Local Machine:
 (Tested on Windows and Mac OS)
-Go to the project directory and and then into the Local subdirectory
-Type in the visual studio terminal (or Command Prompt): dotnet fsi bitcoinminer.fsx 4
-The argument is the value of 'k'- which is the number of leading 0’s in the hashed output
-The program will terminate when all bitcoins with k leading 0’s are mined
+Go to the project directory and and then into the Local subdirectory.
+Type in the visual studio terminal (or Command Prompt): dotnet fsi bitcoinminer.fsx 4.
+The argument is the value of 'k'- which is the number of leading 0’s in the hashed output.
+The program will terminate when all bitcoins with k leading 0’s are mined.
 General command: dotnet fsi .\proj1.fsx 
 
 On Remote Server:
