@@ -5,8 +5,9 @@ In this project, we have to use exclusively the AKKA actor library in F#.  Worke
 The key component in a bit-coin is an input that, when “hashed” produces an output smaller than a target value.  In practice, the comparison values have leading  0’s, thus the bitcoin is required to have a given number of leading 0’s
 Here, we are required to use SHA-26 to find hashes for an input string
 
-Steps to run:
-- Requirements: .NET SDK, Ionide, Visual Studio
+Steps to run:</br>
+Requirements: .NET SDK, Ionide, Visual Studio</br>
+
 On Local Machine:
 (Tested on Windows and Mac OS)
 Go to the project directory and and then into the Local subdirectory</br>
